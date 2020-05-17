@@ -1,14 +1,26 @@
 {
+  "description": "This example patch demonstrates how the configuration of the tsl2591-device can be changed at run time. Run in debugger and use the tweak nodes to change the gain and integration time settings.",
   "links": [
     {
-      "id": "BJN-RgysI",
+      "id": "BJLEcNJiI",
       "input": {
-        "nodeId": "rynlCxkoU",
-        "pinKey": "rJHSh1yiU"
+        "nodeId": "HJHe5NJiI",
+        "pinKey": "BkFCA8Aq8"
       },
       "output": {
-        "nodeId": "HJ8hilJjU",
-        "pinKey": "Bya698C9U"
+        "nodeId": "S1xAm54ko8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJdjt4kiI",
+      "input": {
+        "nodeId": "rya9tNkoL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "B1aosxkiL",
+        "pinKey": "S1itG8A9L"
       }
     },
     {
@@ -34,25 +46,69 @@
       }
     },
     {
-      "id": "SJ6-AekoL",
+      "id": "ByoNc4JoL",
       "input": {
-        "nodeId": "HJYg0xJsL",
-        "pinKey": "B1xEvhJkjU"
+        "nodeId": "SJJZ5VJj8",
+        "pinKey": "Hkxg5I20qL"
       },
       "output": {
-        "nodeId": "B1aosxkiL",
-        "pinKey": "S1itG8A9L"
+        "nodeId": "H10m5E1sU",
+        "pinKey": "__out__"
       }
     },
     {
-      "id": "SJs-AlkiL",
+      "id": "HkeHqNkiL",
       "input": {
         "nodeId": "rynlCxkoU",
         "pinKey": "H1Ooiy1sU"
       },
       "output": {
-        "nodeId": "B1aosxkiL",
-        "pinKey": "S1itG8A9L"
+        "nodeId": "S1xAm54ko8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyvzcN1iU",
+      "input": {
+        "nodeId": "HJHe5NJiI",
+        "pinKey": "B1SKwYC5U"
+      },
+      "output": {
+        "nodeId": "rkzfqVyjU",
+        "pinKey": "Bkf4BDsmV"
+      }
+    },
+    {
+      "id": "S19-q4JiU",
+      "input": {
+        "nodeId": "HJYg0xJsL",
+        "pinKey": "BJzND2yyj8"
+      },
+      "output": {
+        "nodeId": "SJJZ5VJj8",
+        "pinKey": "SJXg9U3R5I"
+      }
+    },
+    {
+      "id": "SJlDqE1jL",
+      "input": {
+        "nodeId": "SJJZ5VJj8",
+        "pinKey": "Bkbg9IhCqI"
+      },
+      "output": {
+        "nodeId": "ryaU9EJsL",
+        "pinKey": "SykJ8wjXN"
+      }
+    },
+    {
+      "id": "SkdbcEysI",
+      "input": {
+        "nodeId": "rynlCxkoU",
+        "pinKey": "rJHSh1yiU"
+      },
+      "output": {
+        "nodeId": "HJHe5NJiI",
+        "pinKey": "SkXJdFRq8"
       }
     },
     {
@@ -67,6 +123,17 @@
       }
     },
     {
+      "id": "Sy6VqNJjU",
+      "input": {
+        "nodeId": "HJYg0xJsL",
+        "pinKey": "B1xEvhJkjU"
+      },
+      "output": {
+        "nodeId": "H10m5E1sU",
+        "pinKey": "__out__"
+      }
+    },
+    {
       "id": "SybyhlJsL",
       "input": {
         "nodeId": "BywCseysL",
@@ -78,14 +145,14 @@
       }
     },
     {
-      "id": "r1vbReksU",
+      "id": "rJXmc41s8",
       "input": {
-        "nodeId": "HJYg0xJsL",
-        "pinKey": "BJzND2yyj8"
+        "nodeId": "SJJZ5VJj8",
+        "pinKey": "BJzlcUnRqI"
       },
       "output": {
-        "nodeId": "rynlCxkoU",
-        "pinKey": "Sye3alysL"
+        "nodeId": "r11QqE1oL",
+        "pinKey": "Bkf4BDsmV"
       }
     },
     {
@@ -108,6 +175,17 @@
       "output": {
         "nodeId": "HJ8hilJjU",
         "pinKey": "Bya698C9U"
+      }
+    },
+    {
+      "id": "rkfP541sL",
+      "input": {
+        "nodeId": "HJHe5NJiI",
+        "pinKey": "BJSZ1PC58"
+      },
+      "output": {
+        "nodeId": "BkD8qEkiU",
+        "pinKey": "SykJ8wjXN"
       }
     },
     {
@@ -147,7 +225,7 @@
       "id": "BJEfRxko8",
       "position": {
         "units": "slots",
-        "x": 14,
+        "x": 13,
         "y": 5
       },
       "size": {
@@ -167,6 +245,18 @@
       "type": "xod/core/count"
     },
     {
+      "boundLiterals": {
+        "SykJ8wjXN": "10h"
+      },
+      "id": "BkD8qEkiU",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 2
+      },
+      "type": "xod/debug/tweak-byte"
+    },
+    {
       "id": "BywCseysL",
       "position": {
         "units": "slots",
@@ -181,6 +271,16 @@
       "type": "xod/debug/watch"
     },
     {
+      "id": "H10m5E1sU",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
       "boundLiterals": {
         "B1yfq8058": "Continuously"
       },
@@ -193,11 +293,20 @@
       "type": "@/read-lux"
     },
     {
+      "id": "HJHe5NJiI",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 3
+      },
+      "type": "@/set-gain"
+    },
+    {
       "id": "HJYg0xJsL",
       "position": {
         "units": "slots",
         "x": 17,
-        "y": 5
+        "y": 4
       },
       "type": "@/get-timing"
     },
@@ -220,7 +329,7 @@
       "position": {
         "units": "slots",
         "x": 17,
-        "y": 6
+        "y": 5
       },
       "size": {
         "height": 1,
@@ -228,6 +337,25 @@
         "width": 2
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1xAm54ko8",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SJJZ5VJj8",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 3
+      },
+      "type": "@/set-timing"
     },
     {
       "id": "Sky0seJiI",
@@ -244,6 +372,15 @@
       "type": "xod/debug/watch"
     },
     {
+      "id": "r11QqE1oL",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 2
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
       "id": "rkik3x1s8",
       "position": {
         "units": "slots",
@@ -258,10 +395,41 @@
       "type": "xod/debug/watch"
     },
     {
+      "id": "rkzfqVyjU",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 2
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "id": "rya9tNkoL",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "boundLiterals": {
+        "SykJ8wjXN": "02h"
+      },
+      "id": "ryaU9EJsL",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 2
+      },
+      "type": "xod/debug/tweak-byte"
+    },
+    {
       "id": "rynlCxkoU",
       "position": {
         "units": "slots",
-        "x": 14,
+        "x": 13,
         "y": 4
       },
       "type": "@/get-gain"

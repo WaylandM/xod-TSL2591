@@ -1,2 +1,184 @@
 {
+  "description": "Combines lower level nodes to creat a lux meter.",
+  "links": [
+    {
+      "id": "B1Mxh4Jj8",
+      "input": {
+        "nodeId": "rJ61nE1iI",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "Bya698C9U"
+      }
+    },
+    {
+      "id": "B1w42E1sL",
+      "input": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "B1yfq8058"
+      },
+      "output": {
+        "nodeId": "BJO7341sI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1A-hVyi8",
+      "input": {
+        "nodeId": "S1fajNyiU",
+        "pinKey": "BkkB0s0qL"
+      },
+      "output": {
+        "nodeId": "SJCasNkiL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkPgnEkoU",
+      "input": {
+        "nodeId": "Byxk2NyjU",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "B1Gm5LCcL"
+      }
+    },
+    {
+      "id": "S16b24yi8",
+      "input": {
+        "nodeId": "S1fajNyiU",
+        "pinKey": "B1qmAjC9U"
+      },
+      "output": {
+        "nodeId": "rkc6jNkj8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJSe2Vyj8",
+      "input": {
+        "nodeId": "SJwJ3VJjU",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "Hy8mqUAqI"
+      }
+    },
+    {
+      "id": "SyVghNyi8",
+      "input": {
+        "nodeId": "S1dkhNJsI",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "Hkx87qLCcI"
+      }
+    },
+    {
+      "id": "r1N6jEyjI",
+      "input": {
+        "nodeId": "H1t3oE1sI",
+        "pinKey": "BkSg5UR9L"
+      },
+      "output": {
+        "nodeId": "S1fajNyiU",
+        "pinKey": "S1itG8A9L"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "description": "Update. Trigger read.",
+      "id": "BJO7341sI",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Byxk2NyjU",
+      "label": "FULL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "H1t3oE1sI",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/read-lux"
+    },
+    {
+      "id": "S1dkhNJsI",
+      "label": "LUX",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "S1fajNyiU",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/tsl2591-device"
+    },
+    {
+      "id": "SJCasNkiL",
+      "label": "TIME",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "SJwJ3VJjU",
+      "label": "IR",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "rJ61nE1iI",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rkc6jNkj8",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
 }

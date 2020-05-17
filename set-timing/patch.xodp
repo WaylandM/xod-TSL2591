@@ -13,6 +13,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "02h"
+      },
       "description": "Integration time (milliseconds). Options: 100ms = 00h, 200ms = 01h, 300ms = 02h, 400ms = 03h,  500ms = 04h, 600ms = 05h.",
       "id": "Bkbg9IhCqI",
       "label": "TIME",
