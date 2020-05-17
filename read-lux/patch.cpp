@@ -15,9 +15,8 @@ void evaluate(Context ctx) {
     uint16_t ir, full;
     ir = lum >> 16;
     full = lum & 0xFFFF;
-    float lux = sensor -> calculateLux(full, ir);
     emitValue<output_FULL>(ctx, full);
     emitValue<output_IR>(ctx, ir);
-    emitValue<output_LUX>(ctx, lux);
+    emitValue<output_LUX>(ctx, sensor->calculateLux(full, ir));
     emitValue<output_DONE>(ctx, 1);
 }

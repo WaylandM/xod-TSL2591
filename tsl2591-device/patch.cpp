@@ -35,8 +35,8 @@ void evaluate(Context ctx) {
       return;
     }
 
-    sensor -> setGain(getValue<input_GAIN>(ctx));
-    sensor -> setTiming(getValue<input_TIME>(ctx));
+    sensor->setGain(getValue<input_GAIN>(ctx));
+    sensor->setTiming(getValue<input_TIME>(ctx));
 
     emitValue<output_DEV>(ctx, sensor);
 }

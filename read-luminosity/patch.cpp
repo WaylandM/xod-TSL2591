@@ -11,13 +11,11 @@ void evaluate(Context ctx) {
 
     // Get a pointer to the `Adafruit_TSL2591` class instance
     auto sensor = getValue<input_DEV>(ctx);
-    uint32_t lum = sensor -> getFullLuminosity();
+    uint32_t lum = sensor->getFullLuminosity();
     uint16_t ir, full;
     ir = lum >> 16;
     full = lum & 0xFFFF;
-    Number irNum = (Number)ir;
-    Number fullNum = (Number)full;
-    emitValue<output_FULL>(ctx, fullNum);
-    emitValue<output_IR>(ctx, irNum);
+    emitValue<output_FULL>(ctx, full);
+    emitValue<output_IR>(ctx, ir);
     emitValue<output_DONE>(ctx, 1);
 }

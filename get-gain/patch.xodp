@@ -2,7 +2,7 @@
   "description": "Get gain of sensor.",
   "nodes": [
     {
-      "description": "Current value of gain: 00h = low gain (1x), 01h = medium gain (25x), 02h = medium gain (428x), 03h = high gain (9876x).",
+      "description": "Current value of gain: 00h = low gain (1x), 10h = medium gain (25x), 20h = medium gain (428x), 30h = high gain (9876x).",
       "id": "Bkk6i1yoL",
       "label": "GAIN",
       "position": {

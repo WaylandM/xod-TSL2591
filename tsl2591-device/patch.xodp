@@ -3,9 +3,9 @@
   "nodes": [
     {
       "boundLiterals": {
-        "__out__": "01h"
+        "__out__": "10h"
       },
-      "description": "Initial sensor gain. Can be modified at runtime using set-gain node. Options: low gain (1x) = 00h, medium gain (25x) = 01h,  medium gain (428x) = 02h, high gain (9876x) = 03h. ",
+      "description": "Initial sensor gain. Can be modified at runtime using set-gain node. Options: low (1x) = 00h, medium (25x) = 10h,  high (428x) = 20h, max (9876x) = 30h. ",
       "id": "B1qmAjC9U",
       "label": "GAIN",
       "position": {
