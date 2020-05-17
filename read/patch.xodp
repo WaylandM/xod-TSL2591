@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "description": "Luminosity (raw count) of full spectrum (visible and infrared).",
+      "id": "B1Gm5LCcL",
+      "label": "FULL",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Update. Trigger read.",
+      "id": "B1yfq8058",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A tsl2591-device.",
+      "id": "BkSg5UR9L",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-tsl2591-device"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "Bya698C9U",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "H1WlqUC9U",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Hkx87qLCcI",
+      "label": "LUX",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Infrared luminosity (raw count).",
+      "id": "Hy8mqUAqI",
+      "label": "IR",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

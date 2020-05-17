@@ -8,7 +8,7 @@
 #include <Adafruit_TSL2591.h>
 {{/global}}
 
-// Reserve memory to store an instance of the Adafruit_BMP280 class,
+// Reserve memory to store an instance of the Adafruit_TSL2591 class,
 // and create the instance later:
 struct State {
     uint8_t mem[sizeof(Adafruit_TSL2591)];
@@ -25,4 +25,15 @@ void evaluate(Context ctx) {
         return;
 
     auto state = getState(ctx);
+
+    // Create a new object in the memory area reserved previously.
+    // Pass in a user-defined number for the sensor identifier.
+    Type sensor = new (state->mem) Adafruit_TSL2591(2591);
+
+    if (!sensor->begin()) {
+      raiseError(ctx);
+      return;
+    }
+
+    emitValue<output_DEV>(ctx, sensor);
 }
