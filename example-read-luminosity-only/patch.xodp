@@ -1,0 +1,239 @@
+{
+  "comments": [
+    {
+      "content": "Luminosity of visible light.",
+      "id": "BkcwQxysU",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      }
+    },
+    {
+      "content": "Number of readings.",
+      "id": "S1u2mg1sL",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "BkOGXgys8",
+      "input": {
+        "nodeId": "rJE1mxJjU",
+        "pinKey": "BypX80uSD1Z"
+      },
+      "output": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "HJf6m6LR9U"
+      }
+    },
+    {
+      "id": "BywoMgkoI",
+      "input": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "SyW6XaLRqL"
+      },
+      "output": {
+        "nodeId": "Hy3qzgkiU",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "H1U5fgJjU",
+      "input": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "Syg6mTLR5I"
+      },
+      "output": {
+        "nodeId": "ryqFze1jI",
+        "pinKey": "S1itG8A9L"
+      }
+    },
+    {
+      "id": "H1VQ7gkjI",
+      "input": {
+        "nodeId": "BkPTzlJj8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkOg7e1j8",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "H1bfmeJj8",
+      "input": {
+        "nodeId": "HyhhMg1sU",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "HJf6m6LR9U"
+      }
+    },
+    {
+      "id": "H1cGmx1s8",
+      "input": {
+        "nodeId": "rJE1mxJjU",
+        "pinKey": "rkJ4URuHDJ-"
+      },
+      "output": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "Sy7pmaLR98"
+      }
+    },
+    {
+      "id": "SJzzQlJjU",
+      "input": {
+        "nodeId": "BJHazeyiU",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "Sy7pmaLR98"
+      }
+    },
+    {
+      "id": "SyTbme1jL",
+      "input": {
+        "nodeId": "HkOg7e1j8",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "BJz9zgkjL",
+        "pinKey": "r1B6mpLC98"
+      }
+    },
+    {
+      "id": "ryazmlJiI",
+      "input": {
+        "nodeId": "BJE6zgJoL",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJE1mxJjU",
+        "pinKey": "HyRmUCdBDkZ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJE6zgJoL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJHazeyiU",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJz9zgkjL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/read-luminosity"
+    },
+    {
+      "id": "BkPTzlJj8",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HkOg7e1j8",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "0.5"
+      },
+      "id": "Hy3qzgkiU",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "HyhhMg1sU",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJE1mxJjU",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/core/subtract"
+    },
+    {
+      "id": "ryqFze1jI",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/tsl2591-device"
+    }
+  ]
+}

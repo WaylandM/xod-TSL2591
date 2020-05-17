@@ -1,4 +1,5 @@
 {
+  "description": "Read luminosity (raw count) of full spectrum (visible and IR) and IR component. Subtract IR from FULL to get luminosity of visible light.",
   "nodes": [
     {
       "id": "Bk6Qa8C9I",

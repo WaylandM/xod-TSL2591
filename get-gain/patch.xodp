@@ -24,6 +24,17 @@
       "type": "@/input-tsl2591-device"
     },
     {
+      "description": "Pulse on completion.",
+      "id": "Sye3alysL",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
       "description": "Update. Trigger get-gain.",
       "id": "rJHSh1yiU",
       "label": "UPD",

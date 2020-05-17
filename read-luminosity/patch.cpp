@@ -5,6 +5,19 @@ struct State {
 {{ GENERATED_CODE }}
 
 void evaluate(Context ctx) {
-    //auto inValue = getValue<input_IN>(ctx);
-    //emitValue<output_OUT>(ctx, inValue);
+    // The node responds only if there is an input pulse
+    if (!isInputDirty<input_UPD>(ctx))
+        return;
+
+    // Get a pointer to the `Adafruit_TSL2591` class instance
+    auto sensor = getValue<input_DEV>(ctx);
+    uint32_t lum = sensor -> getFullLuminosity();
+    uint16_t ir, full;
+    ir = lum >> 16;
+    full = lum & 0xFFFF;
+    Number irNum = (Number)ir;
+    Number fullNum = (Number)full;
+    emitValue<output_FULL>(ctx, fullNum);
+    emitValue<output_IR>(ctx, irNum);
+    emitValue<output_DONE>(ctx, 1);
 }

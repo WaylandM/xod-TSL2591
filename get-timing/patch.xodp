@@ -35,6 +35,17 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "Pulse on completion.",
+      "id": "HkSTTgysL",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
       "id": "SJND2J1jU",
       "position": {
         "units": "slots",
