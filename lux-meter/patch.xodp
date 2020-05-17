@@ -24,6 +24,50 @@
       }
     },
     {
+      "id": "BJIDS8ryoU",
+      "input": {
+        "nodeId": "ryPr8rkoI",
+        "pinKey": "BJzND2yyj8"
+      },
+      "output": {
+        "nodeId": "H1GDr8SysU",
+        "pinKey": "SJXg9U3R5I"
+      }
+    },
+    {
+      "id": "BJUjwSJiL",
+      "input": {
+        "nodeId": "SySbvHJsL",
+        "pinKey": "BkjI-COLb"
+      },
+      "output": {
+        "nodeId": "SyN9vB1iU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BkuivH1jI",
+      "input": {
+        "nodeId": "H1GDr8SysU",
+        "pinKey": "Bkbg9IhCqI"
+      },
+      "output": {
+        "nodeId": "SyN9vB1iU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "By2rjrJsL",
+      "input": {
+        "nodeId": "Bkk-oS1s8",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SJlxoSyj8",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
       "id": "H1A-hVyi8",
       "input": {
         "nodeId": "S1fajNyiU",
@@ -35,6 +79,61 @@
       }
     },
     {
+      "id": "H1awIrkoU",
+      "input": {
+        "nodeId": "Hk7P8H1sI",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1fajNyiU",
+        "pinKey": "S1itG8A9L"
+      }
+    },
+    {
+      "id": "H1fwsBki8",
+      "input": {
+        "nodeId": "SkyVoByoU",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "SySbvHJsL",
+        "pinKey": "ByAIWR_UZ"
+      }
+    },
+    {
+      "id": "HJPvSLryj8",
+      "input": {
+        "nodeId": "S1ZwHUS1jI",
+        "pinKey": "BkFCA8Aq8"
+      },
+      "output": {
+        "nodeId": "H1NPr8rki8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJQvoSyoU",
+      "input": {
+        "nodeId": "H1GDr8SysU",
+        "pinKey": "BJzlcUnRqI"
+      },
+      "output": {
+        "nodeId": "SkyVoByoU",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "HkAdUHyoU",
+      "input": {
+        "nodeId": "B1q_UB1i8",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJxwBLH1j8",
+        "pinKey": "Bkk6i1yoL"
+      }
+    },
+    {
       "id": "HkPgnEkoU",
       "input": {
         "nodeId": "Byxk2NyjU",
@@ -43,6 +142,39 @@
       "output": {
         "nodeId": "H1t3oE1sI",
         "pinKey": "B1Gm5LCcL"
+      }
+    },
+    {
+      "id": "HkSHoSyoL",
+      "input": {
+        "nodeId": "Bkk-oS1s8",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "rJclPHkjL",
+        "pinKey": "ByAIWR_UZ"
+      }
+    },
+    {
+      "id": "HyLwoH1sL",
+      "input": {
+        "nodeId": "SkyVoByoU",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SJlxoSyj8",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "HyiPvHki8",
+      "input": {
+        "nodeId": "BkbDPryiU",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJCasNkiL",
+        "pinKey": "__out__"
       }
     },
     {
@@ -68,6 +200,72 @@
       }
     },
     {
+      "id": "Sk2tPHJoI",
+      "input": {
+        "nodeId": "S1ZwHUS1jI",
+        "pinKey": "BJSZ1PC58"
+      },
+      "output": {
+        "nodeId": "S1B_PSksU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sk6YvSkoL",
+      "input": {
+        "nodeId": "rJclPHkjL",
+        "pinKey": "BkjI-COLb"
+      },
+      "output": {
+        "nodeId": "S1B_PSksU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkOBsH1s8",
+      "input": {
+        "nodeId": "S1ZwHUS1jI",
+        "pinKey": "B1SKwYC5U"
+      },
+      "output": {
+        "nodeId": "Bkk-oS1s8",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "SkPIDB1i8",
+      "input": {
+        "nodeId": "H1QSvr1iL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rkc6jNkj8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkSwHUS1jU",
+      "input": {
+        "nodeId": "BJxwBLH1j8",
+        "pinKey": "rJHSh1yiU"
+      },
+      "output": {
+        "nodeId": "S1ZwHUS1jI",
+        "pinKey": "SkXJdFRq8"
+      }
+    },
+    {
+      "id": "SyFvSUSkoI",
+      "input": {
+        "nodeId": "ryPr8rkoI",
+        "pinKey": "B1xEvhJkjU"
+      },
+      "output": {
+        "nodeId": "rJmPSLH1oU",
+        "pinKey": "__out__"
+      }
+    },
+    {
       "id": "SyVghNyi8",
       "input": {
         "nodeId": "S1dkhNJsI",
@@ -76,6 +274,17 @@
       "output": {
         "nodeId": "H1t3oE1sI",
         "pinKey": "Hkx87qLCcI"
+      }
+    },
+    {
+      "id": "r19PHUHksL",
+      "input": {
+        "nodeId": "BJxwBLH1j8",
+        "pinKey": "H1Ooiy1sU"
+      },
+      "output": {
+        "nodeId": "H1NPr8rki8",
+        "pinKey": "__out__"
       }
     },
     {
@@ -88,46 +297,167 @@
         "nodeId": "S1fajNyiU",
         "pinKey": "S1itG8A9L"
       }
+    },
+    {
+      "id": "rJj0ISksU",
+      "input": {
+        "nodeId": "SyHaUSys8",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "ryPr8rkoI",
+        "pinKey": "HJZEP31ysI"
+      }
+    },
+    {
+      "id": "rydDB8S1sI",
+      "input": {
+        "nodeId": "H1GDr8SysU",
+        "pinKey": "Hkxg5I20qL"
+      },
+      "output": {
+        "nodeId": "rJmPSLH1oU",
+        "pinKey": "__out__"
+      }
     }
   ],
   "nodes": [
+    {
+      "description": "Current value of gain: 00h = low gain (1x), 10h = medium gain (25x), 20h = medium gain (428x), 30h = high gain (9876x).",
+      "id": "B1q_UB1i8",
+      "label": "G",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
     {
       "description": "Update. Trigger read.",
       "id": "BJO7341sI",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 2,
-        "y": 0
+        "x": 3,
+        "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "id": "BJxwBLH1j8",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "@/get-gain"
+    },
+    {
+      "id": "BkbDPryiU",
+      "label": "TIME",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "Bkk-oS1s8",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "description": "Luminosity (raw count) of full spectrum (visible and infrared).",
       "id": "Byxk2NyjU",
       "label": "FULL",
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 3
+        "y": 4
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "H1GDr8SysU",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 2
+      },
+      "type": "@/set-timing"
+    },
+    {
+      "id": "H1NPr8rki8",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "H1QSvr1iL",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/to-bus"
     },
     {
       "id": "H1t3oE1sI",
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 2
+        "y": 1
       },
       "type": "@/read-lux"
     },
     {
+      "id": "Hk7P8H1sI",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "S1B_PSksU",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "S1ZwHUS1jI",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "@/set-gain"
+    },
+    {
+      "description": "Lux (or < 0 if overflow)",
       "id": "S1dkhNJsI",
       "label": "LUX",
       "position": {
         "units": "slots",
         "x": 3,
-        "y": 3
+        "y": 4
       },
       "type": "xod/patch-nodes/output-number"
     },
@@ -136,49 +466,134 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 1
+        "y": 0
       },
       "type": "@/tsl2591-device"
     },
     {
+      "boundLiterals": {
+        "__out__": "02h"
+      },
+      "description": "Integration time (milliseconds). Options: 100ms = 00h, 200ms = 01h, 300ms = 02h, 400ms = 03h,  500ms = 04h, 600ms = 05h.",
       "id": "SJCasNkiL",
       "label": "TIME",
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 0
+        "y": -1
       },
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "id": "SJlxoSyj8",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "description": "Infrared luminosity (raw count).",
       "id": "SJwJ3VJjU",
       "label": "IR",
       "position": {
         "units": "slots",
         "x": 2,
-        "y": 3
+        "y": 4
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "SkyVoByoU",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 1
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "description": "Integration time: 00h = 100ms, 01h = 200ms, 02h = 300ms, 03h = 400ms, 04h = 500ms, 05h = 600ms.",
+      "id": "SyHaUSys8",
+      "label": "IT",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "id": "SyN9vB1iU",
+      "label": "TIME",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SySbvHJsL",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 0
+      },
+      "type": "xod/core/pulse-on-change"
     },
     {
       "id": "rJ61nE1iI",
       "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 4,
-        "y": 3
+        "x": 13,
+        "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "id": "rJclPHkjL",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/core/pulse-on-change"
+    },
+    {
+      "id": "rJmPSLH1oU",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "10h"
+      },
+      "description": "Sensor gain.  Options: low (1x) = 00h, medium (25x) = 10h,  high (428x) = 20h, max (9876x) = 30h. ",
       "id": "rkc6jNkj8",
       "label": "GAIN",
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 0
+        "y": -1
       },
       "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "ryPr8rkoI",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 3
+      },
+      "type": "@/get-timing"
     }
   ]
 }

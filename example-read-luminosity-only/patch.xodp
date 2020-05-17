@@ -29,6 +29,7 @@
       }
     }
   ],
+  "description": "Demonstration of the read-luminosity node. This node is useful if you are only interested in the raw data from the sensor. Run patch in debugger.",
   "links": [
     {
       "id": "BkOGXgys8",

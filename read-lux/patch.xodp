@@ -1,4 +1,5 @@
 {
+  "description": "Read lux and raw luminosity  measurements.",
   "nodes": [
     {
       "description": "Luminosity (raw count) of full spectrum (visible and infrared).",

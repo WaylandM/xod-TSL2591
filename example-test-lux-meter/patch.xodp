@@ -1,2 +1,242 @@
 {
+  "description": "Test of lux meter. Run in debugger and use tweak-byte nodes to change gain and integration time settings on the fly.",
+  "links": [
+    {
+      "id": "BkxuOSJoU",
+      "input": {
+        "nodeId": "HygBOB1j8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "SJwJ3VJjU"
+      }
+    },
+    {
+      "id": "H1WiuSkoU",
+      "input": {
+        "nodeId": "BJTqdHyj8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "SyHaUSys8"
+      }
+    },
+    {
+      "id": "H1couByiU",
+      "input": {
+        "nodeId": "H1vidByj8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "B1q_UB1i8"
+      }
+    },
+    {
+      "id": "HJ8OdH1oU",
+      "input": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "rkc6jNkj8"
+      },
+      "output": {
+        "nodeId": "Hy2Q_ByjU",
+        "pinKey": "SykJ8wjXN"
+      }
+    },
+    {
+      "id": "HJP_dByjU",
+      "input": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "SJCasNkiL"
+      },
+      "output": {
+        "nodeId": "H11NdHkiL",
+        "pinKey": "SykJ8wjXN"
+      }
+    },
+    {
+      "id": "r1Y9dr1iU",
+      "input": {
+        "nodeId": "Skf9dSyo8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJct_rkjL",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rJHjdByoI",
+      "input": {
+        "nodeId": "BJct_rkjL",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "rJ61nE1iI"
+      }
+    },
+    {
+      "id": "rkGd_rys8",
+      "input": {
+        "nodeId": "Sk-8uryi8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "S1dkhNJsI"
+      }
+    },
+    {
+      "id": "ryNtdryoL",
+      "input": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "BJO7341sI"
+      },
+      "output": {
+        "nodeId": "By1tdSkiL",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "ryRD_S1j8",
+      "input": {
+        "nodeId": "BkvN_rys8",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1ngdHkoL",
+        "pinKey": "Byxk2NyjU"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJTqdHyj8",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJct_rkjL",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "BkvN_rys8",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "By1tdSkiL",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "boundLiterals": {
+        "SykJ8wjXN": "02h"
+      },
+      "id": "H11NdHkiL",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-byte"
+    },
+    {
+      "id": "H1ngdHkoL",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "@/lux-meter"
+    },
+    {
+      "id": "H1vidByj8",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "SykJ8wjXN": "10h"
+      },
+      "id": "Hy2Q_ByjU",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-byte"
+    },
+    {
+      "id": "HygBOB1j8",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Sk-8uryi8",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Skf9dSyo8",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
 }
