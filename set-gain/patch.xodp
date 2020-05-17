@@ -1,2 +1,58 @@
 {
+  "description": "Set sensor gain. ",
+  "nodes": [
+    {
+      "description": "Update. Trigger set-gain.",
+      "id": "B1SKwYC5U",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Sensor gain. Options: 00h,",
+      "id": "BJSZ1PC58",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "A tsl2591-device.",
+      "id": "BkFCA8Aq8",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-tsl2591-device"
+    },
+    {
+      "id": "H1mRRIC5I",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SkXJdFRq8",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }
