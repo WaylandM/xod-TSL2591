@@ -1,2 +1,58 @@
 {
+  "description": "Set sensor integration time.",
+  "nodes": [
+    {
+      "description": "Update. Trigger set-gain.",
+      "id": "BJzlcUnRqI",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Integration time (milliseconds). Options: 100ms = 00h, 200ms = 01h, 300ms = 02h, 400ms = 03h,  500ms = 04h, 600ms = 05h.",
+      "id": "Bkbg9IhCqI",
+      "label": "TIME",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "A tsl2591-device.",
+      "id": "Hkxg5I20qL",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-tsl2591-device"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SJXg9U3R5I",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SyeqIn09U",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
 }

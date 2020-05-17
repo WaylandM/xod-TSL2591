@@ -1,5 +1,34 @@
 {
+  "description": "Create a tsl2591-device.",
   "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "01h"
+      },
+      "description": "Initial sensor gain. Can be modified at runtime using set-gain node. Options: low gain (1x) = 00h, medium gain (25x) = 01h,  medium gain (428x) = 02h, high gain (9876x) = 03h. ",
+      "id": "B1qmAjC9U",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "02h"
+      },
+      "description": "Initial integration time (milliseconds). Can be modified at runtime using set-timing node. Options: 100ms = 00h, 200ms = 01h, 300ms = 02h, 400ms = 03h,  500ms = 04h, 600ms = 05h.",
+      "id": "BkkB0s0qL",
+      "label": "TIME",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
     {
       "description": "A TSL2591 device.",
       "id": "S1itG8A9L",

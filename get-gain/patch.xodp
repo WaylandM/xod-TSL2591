@@ -1,2 +1,47 @@
 {
+  "description": "Get gain of sensor.",
+  "nodes": [
+    {
+      "description": "Current value of gain: 00h = low gain (1x), 01h = medium gain (25x), 02h = medium gain (428x), 03h = high gain (9876x).",
+      "id": "Bkk6i1yoL",
+      "label": "GAIN",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "description": "A tsl2591-device.",
+      "id": "H1Ooiy1sU",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-tsl2591-device"
+    },
+    {
+      "description": "Update. Trigger get-gain.",
+      "id": "rJHSh1yiU",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryZ_s1yjL",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
 }
