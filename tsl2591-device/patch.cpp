@@ -14,7 +14,6 @@ node {
     }
 
     // Create an object of class Adafruit_TSL2591
-    // Keep Adafruit_TSL2591 object in state
     Adafruit_TSL2591 sensor = Adafruit_TSL2591();
 
     void evaluate(Context ctx) {
@@ -23,11 +22,10 @@ node {
             return;
 
         // Try to initialize sensor
-        if (!sensor->begin()) {
+        if (!sensor.begin()) {
             raiseError(ctx);
             return;
         }
-
         emitValue<output_DEV>(ctx, &sensor);
     }
 }

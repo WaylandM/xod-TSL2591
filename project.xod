@@ -2,5 +2,5 @@
   "description": "TSL2591 High Dynamic Range Digital Light Sensor. Wraps https://github.com/adafruit/Adafruit_TSL2591_Library. Datasheet: https://cdn-learn.adafruit.com/assets/assets/000/078/658/original/TSL2591_DS000338_6-00.pdf?1564168468",
   "license": "BSD-3-Clause",
   "name": "tsl2591-light-sensor",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

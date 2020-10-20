@@ -149,7 +149,7 @@
       "id": "By1tdSkiL",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 4,
         "y": 0
       },
       "type": "xod/core/clock"
@@ -161,7 +161,7 @@
       "id": "H11NdHkiL",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 9,
         "y": 0
       },
       "type": "xod/debug/tweak-byte"
@@ -191,7 +191,7 @@
       "id": "Hy2Q_ByjU",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 8,
         "y": 0
       },
       "type": "xod/debug/tweak-byte"
