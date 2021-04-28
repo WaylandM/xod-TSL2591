@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "By2rjrJsL",
-      "input": {
-        "nodeId": "Bkk-oS1s8",
-        "pinKey": "ByU7LRuSPkW"
-      },
-      "output": {
-        "nodeId": "SJlxoSyj8",
-        "pinKey": "ryVmUAOrvkb"
-      }
-    },
-    {
       "id": "H1awIrkoU",
       "input": {
         "nodeId": "Hk7P8H1sI",
@@ -142,17 +131,6 @@
       "output": {
         "nodeId": "rJclPHkjL",
         "pinKey": "ByAIWR_UZ"
-      }
-    },
-    {
-      "id": "HyLwoH1sL",
-      "input": {
-        "nodeId": "SkyVoByoU",
-        "pinKey": "ByU7LRuSPkW"
-      },
-      "output": {
-        "nodeId": "SJlxoSyj8",
-        "pinKey": "ryVmUAOrvkb"
       }
     },
     {
@@ -275,6 +253,50 @@
         "nodeId": "rJmPSLH1oU",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "SkAs-WDvO",
+      "input": {
+        "nodeId": "S1fajNyiU",
+        "pinKey": "Hkr8us4D_"
+      },
+      "output": {
+        "nodeId": "S19iWWvwO",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1rMibPPu",
+      "input": {
+        "nodeId": "SyfboZDwO",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "SJlxoSyj8",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "ryuGo-vvd",
+      "input": {
+        "nodeId": "Bkk-oS1s8",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SyfboZDwO",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "SJiGjZwDu",
+      "input": {
+        "nodeId": "SkyVoByoU",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SyfboZDwO",
+        "pinKey": "Bk4gU0drwJ-"
+      }
     }
   ],
   "nodes": [
@@ -290,6 +312,9 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
       "description": "Update. Trigger read.",
       "id": "BJO7341sI",
       "label": "UPD",
@@ -414,8 +439,8 @@
       "id": "SJlxoSyj8",
       "position": {
         "units": "slots",
-        "x": 11,
-        "y": 0
+        "x": 12,
+        "y": -1
       },
       "type": "xod/core/boot"
     },
@@ -510,6 +535,29 @@
         "y": 3
       },
       "type": "@/get-timing"
+    },
+    {
+      "description": "I²C bus.",
+      "id": "S19iWWvwO",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -1
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "3"
+      },
+      "id": "SyfboZDwO",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 0
+      },
+      "type": "xod/core/delay"
     }
   ]
 }

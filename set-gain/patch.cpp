@@ -6,7 +6,7 @@ node {
 
         // Get a pointer to the `Adafruit_TSL2591` class instance
         auto sensor = getValue<input_DEV>(ctx);
-        sensor -> setGain(getValue<input_GAIN>(ctx));
+        sensor -> setGain((tsl2591Gain_t)getValue<input_GAIN>(ctx));
         emitValue<output_DONE>(ctx, 1);
     }
 }

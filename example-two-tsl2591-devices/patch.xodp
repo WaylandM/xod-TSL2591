@@ -1,0 +1,193 @@
+{
+  "comments": [
+    {
+      "content": "**Wire** \n1st hardware I²C bus.",
+      "id": "Hyay3ZPP_",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**Wire1** \n2nd hardware I²C bus.",
+      "id": "ryjfnZvvu",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    }
+  ],
+  "description": "Use of two TSL2591 devices, each on its own hardware I²C bus.",
+  "links": [
+    {
+      "id": "By0JLbDv_",
+      "input": {
+        "nodeId": "BJYuz-PDu",
+        "pinKey": "S19iWWvwO"
+      },
+      "output": {
+        "nodeId": "H19yL-Dv_",
+        "pinKey": "HyvnPf3kQ"
+      }
+    },
+    {
+      "id": "rk_x8-vw_",
+      "input": {
+        "nodeId": "S1G9zWvvu",
+        "pinKey": "S19iWWvwO"
+      },
+      "output": {
+        "nodeId": "S1XxIbDD_",
+        "pinKey": "HkzqwgmD_"
+      }
+    },
+    {
+      "id": "HJpWIZvDO",
+      "input": {
+        "nodeId": "Bk_ZUWvvu",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJYuz-PDu",
+        "pinKey": "S1dkhNJsI"
+      }
+    },
+    {
+      "id": "S1mGUZwwu",
+      "input": {
+        "nodeId": "rJlfUWDvu",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1G9zWvvu",
+        "pinKey": "S1dkhNJsI"
+      }
+    },
+    {
+      "id": "SJM_q-DPO",
+      "input": {
+        "nodeId": "By1uqZvDu",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1G9zWvvu",
+        "pinKey": "B1q_UB1i8"
+      }
+    },
+    {
+      "id": "Bk4u9bwPu",
+      "input": {
+        "nodeId": "HynwcWwPO",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJYuz-PDu",
+        "pinKey": "B1q_UB1i8"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "BJO7341sI": "Continuously",
+        "rkc6jNkj8": "00h"
+      },
+      "id": "BJYuz-PDu",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 2
+      },
+      "type": "@/lux-meter"
+    },
+    {
+      "boundLiterals": {
+        "BJO7341sI": "Continuously",
+        "rkc6jNkj8": "20h"
+      },
+      "id": "S1G9zWvvu",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 2
+      },
+      "type": "@/lux-meter"
+    },
+    {
+      "id": "H19yL-Dv_",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "type": "xod/i2c/i2c"
+    },
+    {
+      "id": "S1XxIbDD_",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 1
+      },
+      "type": "wayland/i2c-additional-buses/i2c-wire1"
+    },
+    {
+      "id": "Bk_ZUWvvu",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJlfUWDvu",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HynwcWwPO",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "By1uqZvDu",
+      "position": {
+        "units": "slots",
+        "x": 23,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

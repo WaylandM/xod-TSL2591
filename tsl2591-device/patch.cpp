@@ -21,8 +21,10 @@ node {
         if (!isSettingUp())
             return;
 
+        auto wire = getValue<input_I2C>(ctx);
+        
         // Try to initialize sensor
-        if (!sensor.begin()) {
+        if (!sensor.begin(wire)) {
             raiseError(ctx);
             return;
         }
